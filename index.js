@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const checker = require('license-checker');
 const chalk = require('chalk');
 
