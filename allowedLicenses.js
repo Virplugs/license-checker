@@ -6,7 +6,7 @@
 //       Please raise an issue for discussion before adding a GPLv3 compatible license to
 //       this list.
 
-{
+module.exports = {
   allowedLicenses: [
     "GPL-3.0",			// by definition
     "GPL-3.0-only",		// by definition
