@@ -14,7 +14,7 @@ checker.init({
 		if (Object.keys(packages)
 			.filter(name => !licenseInfo.allowedPackages.includes(name.split('@')[0]))
 			.every(name => licenseInfo.allowedLicenses.includes(licensesToString(packages[name].licenses)))) {
-			console.log(chalk.green("All imported packages have compatible licenses"));
+			console.log(chalk.green("All imported packages have compatible and accepted licenses"));
 			console.log(checker.asSummary(packages));
 			process.exit(0);
 		} else {
