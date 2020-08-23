@@ -3,7 +3,7 @@
 const checker = require('license-checker');
 const chalk = require('chalk');
 
-const licenseInfo = require('./allowedLicenses.json');
+const licenseInfo = require('./allowedLicenses.js');
 
 checker.init({
 	start: '.'
