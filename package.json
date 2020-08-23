@@ -7,7 +7,9 @@
     "url": "https://github.com/Virplugs/license-checker.git"
   },
   "main": "index.js",
-  { "bin" : { "virplugs-check-licenses" : "./index.js" } }
+  "bin" : { 
+    "virplugs-check-licenses" : "./index.js"
+  },
   "author": "Virplugs",
   "license": "CC0-1.0",
   "devDependencies": {
