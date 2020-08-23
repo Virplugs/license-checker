@@ -1,5 +1,5 @@
 {
-  "name": "virplugs-license-checker",
+  "name": "@virplugs/license-checker",
   "version": "1.0.0",
   "description": "License checker for the Virplugs modules",
   "repository": {
