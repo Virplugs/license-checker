@@ -1,0 +1,16 @@
+{
+  "name": "virplugs-license-checker",
+  "version": "1.0.0",
+  "description": "License checker for the Virplugs modules",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Virplugs/license-checker.git"
+  },
+  "main": "index.js",
+  "author": "Virplugs",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "license-checker": "^25.0.1",
+  }
+}
