@@ -35,6 +35,7 @@ module.exports = {
     "Unlicense",		// https://www.gnu.org/licenses/license-list.html#Unlicense
     "Zlib",				// https://www.gnu.org/licenses/license-list.html#ZLib
     "WTFPL",			// https://www.gnu.org/licenses/license-list.html#WTFPL
+    "Public Domain", // By definition
 
     // Custom licenses
     "Custom: http://npm-stat.com/charts.html",
