@@ -21,8 +21,7 @@ checker.init({
 			console.log(chalk.red("These packages have incompatible licenses:"));
 			Object.keys(packages)
 				.filter(name => !licenseInfo.allowedPackages.includes(name.split('@')[0]))
-				.filter(name => !licenseInfo.allowedLicenses.includes
-					(licensesToString(packages[name].licenses)))
+				.filter(name => !licenseInfo.allowedLicenses.includes(licensesToString(packages[name].licenses)))
 				.forEach(name => {
 					console.log(`  ${name}: ${packages[name].licenses}`);
 				});
@@ -35,7 +34,7 @@ checker.init({
 
 function licensesToString(licenses) {
 	if (Array.isArray(licenses)) {
-		licenses = '(' + licenses.join(" AND ") + ')';
+		licenses = `(${licenses.join(" AND ")})`;
 	}
 	return licenses.replace(/\*$/g, '');
 }
